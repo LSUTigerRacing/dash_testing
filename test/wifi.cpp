@@ -5,6 +5,7 @@
 // Set these to your desired credentials.
 const char *ssid = "Free Wifi";
 const char *password = "RacingTiger";
+WiFiServer server(80);
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
